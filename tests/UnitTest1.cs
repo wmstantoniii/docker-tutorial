@@ -32,8 +32,5 @@ namespace myWebApp.Tests
 
         [Fact]
         public void Always_Succeeds() => Assert.Equal(1, 1);
-
-        [Fact]
-        public void Always_Succeeds() => Assert.Equal(2, 2);
     }
 }
