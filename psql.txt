@@ -1,0 +1,5 @@
+psql -d example -U postgres -c "INSERT INTO \"Students\" (\"ID\", \"LastName\", \"FirstMidName\", \"EnrollmentDate\") VALUES (DEFAULT, 'Turtle', 'Mack', '2013-03-20');"
+
+psql -d example -U postgres -c "SELECT * FROM \"Students\""
+
+psql -d example -U postgres -c "UPDATE \"Students\" SET \"FirstMidName\" = 'Yertle' WHERE \"ID\" = 3"
