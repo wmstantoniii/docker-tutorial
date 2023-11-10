@@ -29,5 +29,8 @@ namespace myWebApp.Tests
             Assert.Equal(firstMidName, student.FirstMidName);
             Assert.Equal(enrollmentDate, student.EnrollmentDate);
         }
+
+        [Fact]
+        public void Always_Succeeds() => Assert.Equal(1, 1);
     }
 }
