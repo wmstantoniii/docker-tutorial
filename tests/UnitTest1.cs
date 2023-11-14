@@ -34,6 +34,6 @@ namespace myWebApp.Tests
         public void Always_Succeeds() => Assert.Equal(1, 1);
 
         [Fact]
-        public void Also_Always_Succeeds() => Assert.Equal(2, 2);
+        public void Also_Always_Succeeds() => Assert.Equal(3, 3);
     }
 }
